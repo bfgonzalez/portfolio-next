@@ -1,0 +1,17 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+/out_functions
+/out_publish
+
+# misc
+.DS_Store
+
+# vercel
+.vercel
