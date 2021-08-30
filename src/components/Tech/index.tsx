@@ -1,4 +1,4 @@
-import { Section, Header, Paragraph, SkillSection } from '..'
+import { Section, Header, SkillSection } from '..'
 
 const Tech: React.FC = () => {
   const currentTech = [
@@ -11,7 +11,7 @@ const Tech: React.FC = () => {
     'DatoCMS',
     'Tailwind CSS',
     'Elixir/Phoenix',
-    'React Testing Library (Jest)',
+    'Jest',
     'Netlify',
     'NPM/Yarn'
   ]

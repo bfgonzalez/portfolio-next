@@ -3,7 +3,10 @@ import Section from './shared/Section';
 import Hero from './Hero';
 import About from './About';
 import Tech from './Tech';
+import Projects from './Projects';
 import SkillSection from './Tech/SkillSection';
+import TechStack from './shared/TechStack';
+import ProjectTile from './Projects/ProjectTile';
 import { Header, Paragraph, LinkText } from './shared/Typography';
 
-export { Layout, Section, Header, Paragraph, LinkText, SkillSection, Hero, About, Tech }
+export { Layout, Section, Header, Paragraph, LinkText, SkillSection, TechStack, ProjectTile, Hero, About, Tech, Projects }
