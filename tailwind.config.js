@@ -6,6 +6,9 @@ module.exports = {
       primary: ['Poppins', 'ui-sans-serif'],
       secondary: ['Azeret Mono', 'ui-monospace']
     },
+    colors: {
+      primary: '#0070f3'
+    },
     extend: {}
   },
   variants: {
