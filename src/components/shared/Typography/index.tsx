@@ -1,3 +1,5 @@
+import classnames from 'classnames'
+
 interface TextTypes {
   text?: string
 }
@@ -20,10 +22,20 @@ export const Paragraph: React.FC<TextTypes> = ({ text, children }) => (
 interface LinkTextTypes {
   link: string
   text: string
+  color?: string
 }
 
-export const LinkText: React.FC<LinkTextTypes> = ({ link, text }) => (
-  <a href={link} className='font-bold text-primary underline mx-4'>
+export const LinkText: React.FC<LinkTextTypes> = ({
+  link,
+  text,
+  color = 'primary'
+}) => (
+  <a
+    href={link}
+    target='_blank'
+    rel='noopener noreferrer'
+    className={`font-bold text-${color} underline mx-4 hover:text-primary`}
+  >
     {text}
   </a>
 )
