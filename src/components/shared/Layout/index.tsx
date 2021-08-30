@@ -14,13 +14,7 @@ const Layout: React.FC = ({ children }) => {
       </Head>
       {children}
       <footer className='font-secondary py-8 text-center'>
-        <a
-          href='https://bfgonzalez.vercel.app/'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Bianca Gonzalez © {new Date().getFullYear()}
-        </a>
+        <a href='/'>Bianca Gonzalez © {new Date().getFullYear()}</a>
       </footer>
     </>
   )
