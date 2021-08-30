@@ -1,6 +1,9 @@
-import Layout from './shared/Layout';
+import Layout from './shared/Layout/index';
+import Section from './shared/Section';
 import Hero from './Hero';
 import About from './About';
-import { LinkText } from './shared/Typography';
+import Tech from './Tech';
+import SkillSection from './Tech/SkillSection';
+import { Header, Paragraph, LinkText } from './shared/Typography';
 
-export { Layout, Hero, About, LinkText }
+export { Layout, Section, Header, Paragraph, LinkText, SkillSection, Hero, About, Tech }

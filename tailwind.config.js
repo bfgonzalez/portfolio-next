@@ -10,7 +10,8 @@ module.exports = {
       secondary: ['Azeret Mono', 'ui-monospace']
     },
     colors: {
-      primary: '#0070f3'
+      primary: '#0070f3',
+      grey: '#D1D5DB'
     },
     extend: {}
   },
