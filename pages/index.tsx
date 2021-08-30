@@ -1,10 +1,10 @@
-import Layout from '../src/components/shared/Layout'
-import Hero from '../src/components/Hero'
+import { Layout, Hero, About } from '../src/components'
 
 const Home: React.FC = () => {
   return (
     <Layout>
       <Hero />
+      <About />
     </Layout>
   )
 }
