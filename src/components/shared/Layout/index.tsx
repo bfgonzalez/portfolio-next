@@ -13,6 +13,15 @@ const Layout: React.FC = ({ children }) => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       {children}
+      <footer className='font-secondary py-8 text-center'>
+        <a
+          href='https://bfgonzalez.vercel.app/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          Bianca Gonzalez © {new Date().getFullYear()}
+        </a>
+      </footer>
     </>
   )
 }
