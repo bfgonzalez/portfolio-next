@@ -1,6 +1,7 @@
 import Layout from './shared/Layout';
+import { Section } from './shared/Section';
 import Hero from './Hero';
 import About from './About';
-import { LinkText } from './shared/Typography';
+import {  Header, LinkText } from './shared/Typography';
 
-export { Layout, Hero, About, LinkText }
+export { Layout, Section, Hero, About, Header, LinkText }
