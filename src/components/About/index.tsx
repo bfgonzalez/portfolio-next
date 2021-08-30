@@ -3,7 +3,7 @@ import { Section, Header, Paragraph, LinkText } from '..'
 const About: React.FC = () => {
   return (
     <Section>
-      <Header text='About Me' />
+      <Header text='About Me 👾' />
       <Paragraph>
         Hey there 👋 I'm Bianca! I'm currently a
         <LinkText
@@ -18,6 +18,14 @@ const About: React.FC = () => {
         <strong className='text-primary'>solve problems</strong>,{' '}
         <strong className='text-primary'>learn by doing</strong>, and{' '}
         <strong className='text-primary'>bring ideas to life!✨</strong>
+      </Paragraph>
+
+      <Paragraph>
+        Outside of work, I'm a gamer 🎮 at heart. You'll usually catch me
+        playing whatever's free on PS+. Some games I've enjoyed include the
+        Uncharted series, Metal Gear Solid V: The Phantom Pain, Spider-Man
+        (2018), Detroit: Become Human, Monster Hunter World, Star Wars Jedi:
+        Fallen Order, and Horizon Zero Dawn (my current fave).
       </Paragraph>
     </Section>
   )

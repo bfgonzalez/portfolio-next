@@ -4,7 +4,9 @@ const Hero: React.FC = () => {
   return (
     <Section isHero>
       <Header>
-        <a href='https://github.com/bfgonzalez'>Software Developer👩🏻‍💻</a>
+        <a href='https://github.com/bfgonzalez' className='hover:underline'>
+          Software Developer 👩🏻‍💻
+        </a>
       </Header>
 
       <Paragraph
