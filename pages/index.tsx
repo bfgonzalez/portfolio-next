@@ -1,4 +1,4 @@
-import { Layout, Hero, About, Tech, Projects } from '../src/components'
+import { Layout, Hero, About, Tech, Projects, Contact } from '../src/components'
 
 const Home: React.FC = () => {
   return (
@@ -7,6 +7,7 @@ const Home: React.FC = () => {
       <About />
       <Tech />
       <Projects />
+      <Contact />
     </Layout>
   )
 }
