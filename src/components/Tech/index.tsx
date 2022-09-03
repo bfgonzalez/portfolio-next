@@ -8,15 +8,31 @@ const Tech: React.FC = () => {
     'React (Hooks)',
     'Next.js',
     'GraphQL',
+    'Hasura',
+    'Apollo',
+    'React Testing Library/Jest',
     'DatoCMS',
     'Tailwind CSS',
+    'Chakra UI',
+    'Storybook',
     'Elixir/Phoenix',
-    'Jest',
     'Netlify',
+    'Heroku',
+    'CircleCI',
     'NPM/Yarn'
   ]
 
-  const tools = ['Git', 'Github', 'Terminal', 'VS Code', 'Figma', 'Jira']
+  const tools = [
+    'Git',
+    'Github',
+    'Bitbucket',
+    'Jira',
+    'Trello',
+    'Figma',
+    'Zeplin',
+    'VS Code',
+    'Terminal'
+  ]
 
   const oldTech = [
     'Google Apps Script',
@@ -26,8 +42,6 @@ const Tech: React.FC = () => {
     'Python',
     'Django REST Framework',
     'Bulma',
-    'Chakra UI',
-    'Heroku',
     'Github Pages',
     'PostgreSQL'
   ]
