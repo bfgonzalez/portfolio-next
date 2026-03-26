@@ -1,6 +1,19 @@
-import { Section, Header, Paragraph, LinkText } from '..'
+import { Section, Header, Paragraph, SkillSection, LinkText } from '..'
 
 const About: React.FC = () => {
+  const games = [
+    'Uncharted series',
+    "Marvel's Spider-Man 1 / 2",
+    'Star Wards Jedi: Fallen Order / Survivor',
+    'Horizon Zero Dawn / Forbidden West',
+    'Ghost of Tsushima / Yotei',
+    'Cyberpunk 2077',
+    "No Man's Sky",
+    'Ratchet & Clank: Rift Apart',
+    'Dave the Diver',
+    'Astro Bot',
+    'Slay the Spire'
+  ]
   return (
     <Section>
       <Header text='About Me 👾' />
@@ -14,17 +27,14 @@ const About: React.FC = () => {
         <LinkText link='https://mashupgarage.com/' text='Mashup Garage' />
         specializing in React (Next.js) and TypeScript. I build web applications
         for a living, but ultimately I'm someone who loves using tech to{' '}
-        <strong className='text-primary'>solve problems</strong>,{' '}
-        <strong className='text-primary'>learn by doing</strong>, and{' '}
+        <strong className='text-primary'>solve problems</strong> and{' '}
         <strong className='text-primary'>bring ideas to life!✨</strong>
       </Paragraph>
 
-      <Paragraph>
-        Outside of work, I'm a gamer 🎮 at heart. Some games I've enjoyed
-        include the Uncharted series, Spider-Man (2018), Monster Hunter World,
-        Star Wars Jedi: Fallen Order, Horizon Zero Dawn and it's sequel, Horizon
-        Forbidden West.
-      </Paragraph>
+      <SkillSection
+        header="Outside of work, I'm a gamer 🎮 at heart. Some games I've enjoyed:"
+        skills={games}
+      />
     </Section>
   )
 }

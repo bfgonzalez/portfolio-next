@@ -6,7 +6,6 @@ const Home: React.FC = () => {
       <Hero />
       <About />
       <Tech />
-      <Projects />
       <Contact />
     </Layout>
   )
